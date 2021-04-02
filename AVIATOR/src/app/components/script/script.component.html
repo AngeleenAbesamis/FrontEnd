@@ -1,0 +1,11 @@
+
+<div id="charlist" class="charlist"></div>
+<div class="scriptholder">
+<form [formGroup]="form">
+<input type="file" name="screenplay" (change)="onFileChange($event)" />
+</form>
+<input type="button" value="Get Saved Script" (click)="onGet($event)" />
+<input type="button" value="Save Changes" (click)="onSave($event)" />
+<div id="sceneMaker" contenteditable="true"><h1>Load a final draft xml format script</h1></div>
+</div>
+

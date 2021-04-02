@@ -1,0 +1,138 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+  }
+  
+  code {
+    color: #e01a76;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+  }
+  .Scene {
+    font-weight: bold;
+    color: darkred;
+    text-align: center;
+  }
+  
+  .Character {
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+  }
+  
+  .Action {
+    font-weight: normal;
+    color: black;
+    text-align: left;
+  }
+  
+  .Dialogue {
+    font-weight: normal;
+    color: black;
+    text-align: center;
+  }
+  
+  .Content {
+      width:600px;
+      margin:15px;
+      padding:10px;
+      border-width:2px;
+      border-style:none;
+     display:inline-block;
+  }
+
+
+
+.Elements {
+  display: none;
+}
+  
+  .BackgroundBlock {
+    margin: 15px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    display:none;
+  }
+  .scriptnote{
+      background-color:yellow;
+  }
+  
+  .CharacterBlock {
+    margin: 15px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+  }
+  .DialogueBlock {
+    margin: 15px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+  }
+  .Section {
+  
+    margin: 15px;
+    padding: 10px;
+    border-width: 2px;
+  
+  }
+  
+  .hide
+  {
+      display:none;
+  
+  }
+  .show {
+    display: inherit;
+  }
+h1 {
+    color:white;
+}
+  body{
+      margin:5px;
+      background-image:radial-gradient(circle,black,#003366,black);
+      color:white;
+     
+  }
+input {
+  display: inline;
+  background-image: radial-gradient(#f6f6f6,white,#b7b7f6);
+}
+form {
+display:inline;
+margin:15px;
+}
+.Pilot {
+  color: black;
+  margin: 0 auto;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  height: 75vh;
+  width: 65%;
+  background-image: radial-gradient(#f6f6f6,white,#b7b7f6);
+}
+.scriptholder{
+    width:100%;
+   
+}
+.sceneMaker {
+  margin: 0 auto;
+}
+.context {
+  color: black;
+  background-image: radial-gradient(#f6f6f6,white,#b7b7f6);
+}
+.navScene {
+  background-image: radial-gradient(#f6f6f6,white,#b7b7f6);
+}
+
+.fileLabel {
+  background-image: radial-gradient(#f6f6f6,white,#b7b7f6);
+}

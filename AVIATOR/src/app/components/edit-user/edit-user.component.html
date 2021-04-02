@@ -1,0 +1,25 @@
+<div class="container">
+    <form (ngSubmit)="onSubmit()" #userForm="ngForm">
+        <div class="form-group">
+            <label for ="userName">Username:</label>
+            <input type="text" [(ngModel)]="user2update.userName"
+            name="userName" #name="ngModel" class="form-control" placeholder="Enter username">
+        </div>
+        <div class="form-group">
+            <label for ="firstName">First Name:</label>
+            <input type="text" [(ngModel)]="user2update.firstName"
+            name="firstName" #name="ngModel" class="form-control" placeholder="Enter first name">
+        </div>
+        <div class="form-group">
+            <label for ="lastName">Last Name:</label>
+            <input type="text" [(ngModel)]="user2update.lastName" 
+            name="lastName" #name="ngModel" class="form-control" placeholder="Enter last name">
+        </div>
+        <div class="form-group">
+            <label for ="phoneNumb">Phone Number:</label>
+            <input type="text" [(ngModel)]="user2update.phoneNumb" 
+            name="phoneNumb" #name="ngModel" class="form-control" placeholder="Enter phone number">
+        </div>
+        <button type="submit" class="btn btn-secondary">Update info</button>
+    </form>
+</div>

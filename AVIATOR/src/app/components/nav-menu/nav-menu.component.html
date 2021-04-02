@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand title" routerLink="">AVIATOR</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLink="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="about">About</a>
+                </li>
+                    <div ngbDropdown class="d-inline-block">
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Pilots</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <a ngbDropdownItem routerLink="add-pilot">New Pilot</a>
+                            <a ngbDropdownItem routerLink="get-pilots">Your Pilots</a>
+                        </div>
+                    </div>
+                <li>
+                    <a class="nav-link active" routerLink="scene">Scene</a>
+                </li>
+                <li>
+                    <a class="nav-link active" routerLink="script">Script</a>
+                </li>
+                <li>
+                    <a class="nav-link active" *ngIf="auth.isAuthenticated$ | async;" routerLink="user-info">User Info</a>
+                </li>
+            </ul>
+            <span *ngIf="auth.user$ | async as user" class="nav-link d-flex" style="color:whitesmoke">Welcome {{userModel.email}}</span>
+        </div>
+        <app-auth-button></app-auth-button>
+    </div>
+</nav>

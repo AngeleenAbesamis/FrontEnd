@@ -1,0 +1,117 @@
+.Scene {
+  font-weight: bold;
+  color: darkred;
+  text-align: center;
+}
+
+.Character {
+  font-weight: bold;
+  color: darkblue;
+  text-align: center;
+}
+
+.Action {
+  font-weight: normal;
+  color: black;
+  text-align: left;
+}
+
+.Dialogue {
+  font-weight: normal;
+  color: black;
+  text-align: center;
+}
+
+.Content {
+  width: 600px;
+  margin: 15px;
+  padding: 10px;
+  border-width: 2px;
+  border-style: none;
+  display: inline-block;
+}
+
+.Elements {
+  display: none;
+}
+
+.BackgroundBlock {
+  margin: 15px;
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+  display: none;
+}
+
+.scriptnote {
+  background-color: yellow;
+}
+
+.CharacterBlock {
+  margin: 15px;
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.DialogueBlock {
+  margin: 15px;
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.Section {
+  margin: 15px;
+  padding: 10px;
+  border-width: 2px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inherit;
+}
+
+.sceneNav {
+  color: orangered;
+  display: inline;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+.BackgroundBlock {
+  margin: 15px;
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+  display:none;
+}
+
+
+.CharacterBlock {
+  margin: 15px;
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+  display: none;
+}
+.DialogueBlock {
+  margin: 15px;
+  padding: 10px;
+  border-width: 2px;
+  border-style: solid;
+  display: none;
+}
+.charlist{
+
+    display:none;
+}
+

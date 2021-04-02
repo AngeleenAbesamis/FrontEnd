@@ -1,0 +1,30 @@
+<div class="navScene"></div>
+<div class="buttons">
+  <input class="Save" type="button" value="Save Your Changes" (click)="onSave()" /><h1 class="Save"><div class="SceneLabel"></div></h1>
+</div>
+
+<div class="DisplayItem" id="DisplayItem">
+  <div class="Display" style="position:relative;width:100%">
+    <div class="ClaimedBy"></div>
+    <div class="DisplayBackground"></div>
+    <div class="AssetDescription" contentEditable="true"></div>
+    <div class="AssetImg"></div>
+    <div class="VideoAsset"><video src="" width="200" height="100" controls></video></div>
+    <div class="AssetName"></div>
+
+  </div>
+</div>
+
+<div class="SceneContent"></div><div class="test"></div>
+<div class="context">
+  <div class="menuItem">
+    <form [formGroup]="form" class="menuItem"><label class="fileLabel" for="upload"><input type="file" name="character" id="upload" class="menuItem" (change)="onFileChange($event)" /></label></form>
+  </div>
+  <div class="menuItem" data-action="show">Show Asset</div>
+  <div class="menuItem" data-action="claim">Claim Asset</div>
+</div>
+<div class="contextClaimed">
+  <div>This Asset is Claimed.</div>
+  <div class="menuItem" data-action="show">Show Asset</div>
+</div>
+<div class="scratch"></div>
